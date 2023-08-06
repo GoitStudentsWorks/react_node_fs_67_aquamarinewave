@@ -9,7 +9,7 @@ import { store, persistor } from 'redux/store';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="project-FullStackForce01">
+    <BrowserRouter basename="react_node_fs_67_aquamarinewave">
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <App />
